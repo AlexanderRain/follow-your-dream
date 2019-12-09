@@ -8,11 +8,11 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:id="@+id/dream_text_view"
         android:gravity="center"
         android:background="@color/whiteMain"
         android:textColor="@color/blackMain"
-        android:textSize="40dp"
+        android:textSize="@dimen/main_text"
         android:text="@string/dream"/>
 </LinearLayout>
